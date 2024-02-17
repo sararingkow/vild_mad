@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo img {
+  width: 22%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topnav_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.topnav_btn,
+.logo img {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.image-link1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
